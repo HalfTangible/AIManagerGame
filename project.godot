@@ -1,0 +1,11 @@
+; Engine configuration file.
+; Best edited in the Godot editor.
+
+[application]
+
+config/name="AIManagerGame"
+run/main_scene="res://scenes/main.tscn"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
