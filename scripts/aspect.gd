@@ -5,6 +5,7 @@ extends Resource
 @export var display_name: String
 @export_range(-1.0, 1.0, 0.01) var value: float = 0.0
 @export var weight: float = 1.0
+@export var maximum_weight: float = 100.0
 @export var tags: Array[StringName] = []
 
 

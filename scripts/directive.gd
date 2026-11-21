@@ -7,6 +7,8 @@ extends Resource
 @export var priority: float = 0.0
 @export var tags: Array[StringName] = []
 @export var metadata: Dictionary = {}
+@export var effectiveness: float = 1.0
+@export var alignments: Dictionary = {}
 
 
 func duplicate_directive() -> Directive:
